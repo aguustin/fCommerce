@@ -1,0 +1,36 @@
+.products-cont{
+    overflow-y: scroll;
+    height: 90vh;;
+}
+
+.item-card{
+    max-width: 220px;
+    min-width: 220px;
+    margin: 10px;
+    
+}
+
+.card-header{
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header img{
+    width: 120px;
+
+}
+
+.card-body{
+    color:black;
+    text-align: left;
+    font-size: 14px;
+}
+
+.card-footer button{
+    
+    margin: auto;
+}
+

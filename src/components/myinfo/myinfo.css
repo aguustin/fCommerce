@@ -1,0 +1,134 @@
+
+img{
+    width: 100px;
+}
+
+button{
+    border:none
+}
+
+.myInfo{
+    background-image: url("../imgs/myinfo-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    overflow-x: none;
+    overflow-y: scroll;
+    max-height: 100vh;
+    
+}
+
+.myInfo::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.AB h4{
+    color: black;
+}
+
+.AB button{
+    position: relative;
+    float: right;
+    bottom: 20px;
+    margin: 10px;
+}
+
+.AB img{
+    width: 15px;
+}
+
+
+.myinfo-products::-webkit-scrollbar{
+    height: 5px;
+}
+
+.infoA, .infoB{
+    background-color: white;
+    border-radius: 5px;
+    width: 70vw;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+    overflow-y: auto;
+    font-size: 15px;
+}
+
+.infoA::-webkit-scrollbar{
+    height: 10px;
+}
+
+.infoB{
+    overflow-y: scroll;
+    max-height: 60vh;
+    margin-bottom: 20px;
+}
+
+.infoB-lists{
+    align-items: left;
+    padding: 1rem;
+}
+
+.myinfo-products-li{
+    display: flex;
+}
+
+
+*::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 192, 192);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar{
+    background-color: none;
+    width: 8px;
+}
+
+
+.infoB li p{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    position: absolute;
+    margin-left: 20px;
+}
+
+.products{
+    background-color: rgb(236, 235, 235);
+    margin: 10px;
+    color: black;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.products img{
+    z-index:0;
+}
+
+.like{
+    position: relative;
+    left: 40%;
+}
+
+.like img{
+    width: 24px;
+}
+
+.add{
+  position: relative;
+  left: 36%;
+  width: 50px;
+  height: 30px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+
+.products p{
+ text-align: left;
+}

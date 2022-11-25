@@ -1,0 +1,75 @@
+.navigation{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.ulSearch{
+    position: relative;
+    text-decoration: none;
+    left: 35%;
+}
+
+
+.ulSearch li{
+    flex-direction: row;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 20px;
+    width: 100px;
+    
+}
+
+.ulSearch li:hover{
+    background-color: rgb(224, 224, 224);
+    transition: all 0.5s;
+}
+
+.mosNew{
+    margin: 1rem;
+}
+
+#mostrar{
+    position: absolute;
+    left: 1rem;
+    top: 1.3rem;
+}
+
+#mostrar img{
+    width: 40px;
+}
+
+#new{
+    position: absolute;
+    border-radius: 100px;
+    left: 9rem;
+}
+
+#cart{
+    position: absolute;
+    top:1.2rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
+
+#cart img{
+    width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .ulSearch{
+        flex-direction: column;
+        margin-top: 40px;
+        left: 20%;
+    }
+
+    .ulSearch li{
+        padding: 1.5rem;
+        margin: 0px;
+    }
+   
+}
+

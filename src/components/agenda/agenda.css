@@ -1,0 +1,49 @@
+*{
+    list-style: none;
+}
+
+.agenda{
+    text-align: left;
+    padding: 10px;
+    max-height: 90vh;
+    max-width: 230px;
+    overflow-y: auto;
+    transform: translateX(0);
+    transition: all 0.5s;
+    
+}
+
+.agenda-hide{
+    transform: translateX(-100%);
+    width: 0px;
+    transition: all 0.5s;
+}
+
+.agenda::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.agenda button{
+    background: none;
+    border: none;
+    color: rgb(150, 147, 147);
+    margin-left: 10px;
+    text-align: left;
+}
+
+.agenda button:hover{
+    color: rgb(43, 150, 243);
+}
+
+.agenda button:active{
+    color: rgb(43, 150, 243);
+}
+
+.title{
+    color:black;
+    font-weight: 500;
+}
+
+li{
+    color:rgb(150, 149, 149);
+}
